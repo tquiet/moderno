@@ -331,8 +331,9 @@
       color: $green;
       transition: all .5s;
     }
-    .advantages__item-images{
-      g{
+
+    .advantages__item-images {
+      g {
         fill: #fff;
       }
     }
@@ -380,3 +381,85 @@
     width: 86px;
   }
 }
+
+//END advantages
+
+//START AUTHOR
+
+.author {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__box {
+    max-width: 650px;
+    min-height: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $green;
+    width: 100%;
+  }
+  &__title{
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    margin-right: 45px;
+    max-width: 262px;
+    span{
+      @include f700;
+    }
+  }
+  &__link{
+    font-size: 18px;
+    line-height: 36px;
+    padding: 14px 40px;
+    background-color: #fff;
+  }
+}
+//END author
+
+//Start tutoial
+.tutorial{
+  padding: 70px 0 12px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    max-width: 370px;
+    width: 100%;
+  }
+}
+.tutorial__item{
+  &-images{
+  min-height: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+  &-title{
+    background-color: #f8f8f8;
+    font-size: 24px;
+    text-align: center;
+    @include f700;
+    padding: 30px 10px;
+    color: $bg;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+//END tutorial
