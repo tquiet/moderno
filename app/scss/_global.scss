@@ -1,22 +1,26 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 a {
   display: inline-block;
   text-decoration: none;
   color: $text;
 }
+
 ul,
 li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 body {
   font-family: 'Roboto-Regular', sans-serif;
   font-size: 15px;
@@ -35,24 +39,4 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 30px;
-}
-
-.title{
-  text-align: center;
-  color: $bg;
-  @include f700;
-  font-size: 36px;
-  line-height: 60px;
-  margin-bottom: 30px;
-}
-
-@media (max-width: 720px){
-  .container-fluid{
-    padding: 0 15px;
-  }
-}
-
-.rate-star{
-  display: inline-block;
-  margin-right: 13px;
-}
+ }
